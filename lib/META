@@ -1,0 +1,11 @@
+# OASIS_START
+# DO NOT EDIT (digest: a987fb6bff84eb3bf9e3bbd1d1974732)
+version = "1.0.0"
+description = "The the rope data structure"
+archive(byte) = "ropes.cma"
+archive(byte, plugin) = "ropes.cma"
+archive(native) = "ropes.cmxa"
+archive(native, plugin) = "ropes.cmxs"
+exists_if = "ropes.cma"
+# OASIS_STOP
+
