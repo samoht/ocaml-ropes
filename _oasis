@@ -1,0 +1,13 @@
+OASISFormat: 0.4
+Name:        ropes
+Version:     1.0.0
+Synopsis:    The the rope data structure
+Authors:     Jean-Christophe Filliatre
+License:     LGPL
+Plugins:     META (0.3), DevFiles (0.3)
+BuildTools:  ocamlbuild
+
+Library ropes
+  Path: lib/
+  Findlibname: ropes
+  Modules: Rope
